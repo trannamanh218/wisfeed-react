@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  max-width: 1440px;
+  margin: 0px auto;
+  font-family: "Montserrat", sans-serif;
+}
+img {
+  width: 100%;
+}
+header {
+}
+.navbar {
+  align-items: center;
+  padding: 15px 30px;
+  background: #ffffff;
+  box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar > .logo {
+  width: 11.5%;
+  cursor: pointer;
+}
+.navbar > .search {
+  display: flex;
+  width: 25%;
+  background: #eff0f7;
+  height: 63px;
+  align-items: center;
+  padding: 0px 20px;
+  border-radius: 12px;
+}
+.navbar > .search > span {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.navbar > .search > input {
+  width: 80%;
+  background: none;
+  border: none;
+}
+.navbar > .search > input:focus-visible {
+  outline: none;
+}
+.navbar > .search > input::placeholder {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.75px;
+  color: #a0a3bd;
+}
+.navbar > .category {
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+  align-items: center;
+  background: #eff0f7;
+  padding: 0px 20px;
+  border-radius: 12px;
+  height: 63px;
+}
+.navbar > .profile {
+  width: 5%;
+}
+.navbar > .profile > a {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 60px;
+  height: 60px;
+  display: block;
+}
+.box-container {
+  display: flex;
+  background: #fbf7f2;
+  padding-top: 60px;
+}
+.box-container > .box-left {
+  width: 24%;
+}
+.box-container > .box-center {
+  width: 52%;
+}
+.box-container > .box-right {
+  width: 24%;
+}
