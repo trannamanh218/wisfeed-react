@@ -9,6 +9,8 @@ const Main = () => {
     slidesToShow: 2,
     slidesToScroll: 3,
     variableWidth: true,
+    autoplay: true,
+    autoplaySpeed: 3000
   };
   return (
     <main>
@@ -52,7 +54,7 @@ const Main = () => {
                   <div className="amount">02 cuốn</div>
                 </li>
                 <li className="button-see-more">
-                  <a href="#">xem thêm</a>
+                  <a href="#">Xem thêm</a>
                 </li>
               </ul>
             </div>
@@ -292,19 +294,19 @@ const Main = () => {
                     <div className="icon">
                       <img src="img/Filled Thumbs-up.png" alt="" />
                     </div>
-                    <div className="title">12 Like</div>
+                    <div className="title">12 Thích</div>
                   </div>
                   <div className="item comments">
                     <div className="icon">
                       <img src="img/Comment.png" alt="" />
                     </div>
-                    <div className="title">7 Comment</div>
+                    <div className="title">7 Bình luận</div>
                   </div>
                   <div className="item share">
                     <div className="icon">
                       <img src="img/Vector 390.png" alt="" />
                     </div>
-                    <div className="title">54 Share</div>
+                    <div className="title">54 Chia sẻ</div>
                   </div>
                 </div>
                 <ul className="user-comment">
@@ -551,19 +553,19 @@ const Main = () => {
                     <div className="icon">
                       <img src="img/Filled Thumbs-up.png" alt="" />
                     </div>
-                    <div className="title">12 Like</div>
+                    <div className="title">12 Thích</div>
                   </div>
                   <div className="item comments">
                     <div className="icon">
                       <img src="img/Comment.png" alt="" />
                     </div>
-                    <div className="title">7 Comment</div>
+                    <div className="title">7 Bình luận</div>
                   </div>
                   <div className="item share">
                     <div className="icon">
                       <img src="img/Vector 390.png" alt="" />
                     </div>
-                    <div className="title">54 Share</div>
+                    <div className="title">54 Chia sẻ</div>
                   </div>
                 </div>
                 <ul className="user-comment">
