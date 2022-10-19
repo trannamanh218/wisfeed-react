@@ -224,12 +224,9 @@
 .croseo>.slick-slider>.slick-list>.slick-track>div {
     margin-right: 20px;
 }
-.croseo > .slick-slider > .slick-prev {
-  display: none !important;
-}
+.croseo > .slick-slider > .slick-prev,
 .croseo > .slick-slider > .slick-next {
-    margin-right: 50px;
-    background: #4e4b66;
+  display: none !important;
 }
 .croseo .slider .slick-list .slick-track .slick-slide {
   margin-right: 20px;
