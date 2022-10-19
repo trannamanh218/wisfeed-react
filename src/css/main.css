@@ -1,28 +1,6 @@
 @font-face {
-  font-family: "Montserrat";
-  src: url(../../public/font/Montserrat-Medium.ttf);
-}
-@font-face {
-  font-family: "Montserrat-bold";
-  src: url(../../public/font/Montserrat-Bold.ttf);
-  font-weight: bold;
-}
-@font-face {
-  font-family: "Montserrat-Medium";
-  src: url(../../public/font/Montserrat-SemiBold.ttf);
-}
-* {
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
-}
-.container {
-  max-width: 1440px;
-  margin: 0px auto;
-  font-family: "Montserrat", sans-serif;
-}
-img {
-  width: 100%;
+  font-family: Montserrat;
+  src: url("../../public/font/Montserrat-SemiBold.ttf");
 }
 /***************** box left *****************/
 .box-left {
@@ -30,7 +8,7 @@ img {
 }
 .box-left > .box-books-being-read > .title-books {
   font-style: normal;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-weight: 600;
   font-size: 20px;
   line-height: 32px;
@@ -66,8 +44,8 @@ img {
 }
 .right-reading-progress > .title-books {
   font-style: normal;
+  font-family: Montserrat;
   font-weight: 600;
-  font-family: "Montserrat";
   font-size: 13px;
   line-height: 22px;
   letter-spacing: 0.25px;
@@ -77,7 +55,6 @@ img {
 .right-reading-progress > .author-books {
   font-weight: 500;
   font-size: 13px;
-  font-family: "Montserrat-Medium";
   line-height: 22px;
   letter-spacing: 0.25px;
   color: #6e7191;
@@ -98,8 +75,8 @@ img {
 }
 .process .text-process {
   font-style: normal;
+  font-family: Montserrat;
   font-weight: 600;
-  font-family: "Montserrat";
   font-size: 8px;
   line-height: 14px;
   display: flex;
@@ -111,11 +88,11 @@ img {
   border: none;
   color: #b38c64;
   background: none;
-  font-family: "Montserrat-Medium";
   padding: 8px 0px;
   border: 2px solid #e0af7e;
   border-radius: 8px;
   font-weight: 600;
+  font-family: Montserrat;
   font-size: 13px;
   line-height: 22px;
   width: 100%;
@@ -126,9 +103,9 @@ img {
 }
 .box-price-book ul .title {
   font-style: normal;
-  font-weight: 700;
+  font-family: Montserrat;
+  font-weight: 600;
   font-size: 20px;
-  font-family: "Montserrat";
   line-height: 32px;
   display: flex;
   align-items: center;
@@ -142,8 +119,7 @@ img {
 }
 .box-price-book ul li div {
   font-style: normal;
-  font-weight: 800;
-  font-family: "Montserrat";
+  font-weight: 500;
   font-size: 13px;
   line-height: 22px;
   letter-spacing: 0.25px;
@@ -153,7 +129,6 @@ img {
   font-weight: 500;
   font-size: 13px;
   line-height: 22px;
-  font-family: "Montserrat";
   letter-spacing: 0.25px;
   color: #a0a3bd;
 }
@@ -164,7 +139,6 @@ img {
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
-  font-family: "Montserrat";
   line-height: 22px;
   text-align: right;
   letter-spacing: 0.25px;
@@ -172,9 +146,9 @@ img {
   color: #0576f0;
 }
 .box-target .title-box-target {
+  font-family: Montserrat;
   font-style: normal;
-  font-weight: 700;
-  font-family: "Montserrat";
+  font-weight: 600;
   font-size: 20px;
   line-height: 32px;
   letter-spacing: 0.75px;
@@ -189,7 +163,6 @@ img {
 }
 .item-box-target .text-item-box-taget {
   font-style: normal;
-  font-family: "Montserrat-Medium";
   font-weight: 500;
   font-size: 15px;
   line-height: 24px;
@@ -207,7 +180,6 @@ img {
 .item-box-target .amount-item-box-target .right {
   background: #eff0f7;
   border-radius: 22px;
-  font-family: "Montserrat";
   width: 32px;
   height: 32px;
   display: flex;
@@ -222,7 +194,7 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 32px;
-  font-family: "Montserrat";
+
   letter-spacing: 0.75px;
   color: #2d2c42;
 }
@@ -233,8 +205,8 @@ img {
 .item-box-target .btn-item-box-target button {
   border: 2px solid #e0af7e;
   border-radius: 8px;
+  font-style: normal;
   font-weight: 600;
-  font-family: "Montserrat-Medium";
   font-size: 13px;
   line-height: 22px;
   letter-spacing: 0.25px;
@@ -250,11 +222,10 @@ img {
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
-  font-family: "Montserrat";
   line-height: 32px;
   letter-spacing: 0.75px;
   color: #2d2c42;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .croseo .slick-slider div > img {
   border-radius: 10px;
@@ -279,7 +250,6 @@ img {
 .quotes .title-quotes {
   font-style: normal;
   font-weight: 600;
-  font-family: "Montserrat";
   font-size: 20px;
   line-height: 32px;
   letter-spacing: 0.75px;
@@ -288,7 +258,6 @@ img {
 .quotes .text-quotes {
   background: #ffffff;
   border-radius: 16px;
-  font-family: "Montserrat-Medium";
   padding: 20px;
   font-style: normal;
   font-weight: 500;
@@ -300,9 +269,7 @@ img {
 }
 .quotes .btn-quotes {
   text-align: right;
-}
-.quotes .btn-quotes > a {
-  font-family: "Montserrat";
+  font-style: normal;
   font-weight: 500;
   font-size: 13px;
   line-height: 22px;
@@ -312,7 +279,6 @@ img {
 }
 .shortcut-group .title-shortcut-group {
   font-style: normal;
-  font-family: "Montserrat";
   font-weight: 600;
   font-size: 20px;
   line-height: 32px;
@@ -338,7 +304,6 @@ img {
   display: flex;
   border: none;
   background: none;
-  font-family: "Montserrat";
   font-weight: 500;
   font-size: 13px;
   line-height: 22px;
@@ -350,7 +315,6 @@ img {
 }
 .item-shortcut-group .name-shortcut-group {
   font-weight: 600;
-  font-family: "Montserrat";
   font-size: 13px;
   line-height: 22px;
   letter-spacing: 0.25px;
@@ -359,7 +323,6 @@ img {
 .shortcut-group .btn-shortcut-group {
   font-style: normal;
   font-weight: 600;
-  font-family: "Montserrat";
   font-size: 13px;
   line-height: 22px;
   letter-spacing: 0.25px;
@@ -374,8 +337,7 @@ img {
 }
 .event .title-event {
   font-style: normal;
-  font-weight: 700;
-  font-family: "Montserrat";
+  font-weight: 600;
   font-size: 20px;
   line-height: 32px;
   letter-spacing: 0.75px;
@@ -389,8 +351,7 @@ img {
 }
 .event .box-world-Books-day .title-box-world-Books-day {
   font-style: normal;
-  font-weight: 600;
-  font-family: "Montserrat";
+  font-weight: 500;
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0.75px;
@@ -402,7 +363,6 @@ img {
   width: 100%;
   border: 2px solid #e0af7e;
   border-radius: 8px;
-  font-family: "Montserrat-Medium";
   background: none;
   font-style: normal;
   font-weight: 600;
@@ -416,7 +376,6 @@ img {
 .charts .title-charts {
   font-style: normal;
   font-weight: 600;
-  font-family: "Montserrat";
   font-size: 20px;
   line-height: 32px;
   letter-spacing: 0.75px;
@@ -456,7 +415,6 @@ img {
 }
 .number-charts {
   font-weight: 700;
-  font-family: "Montserrat";
   font-size: 10.6563px;
   line-height: 14px;
   display: flex;
@@ -475,7 +433,6 @@ img {
 }
 .name-user-charts {
   font-weight: 600;
-  font-family: "Montserrat";
   font-size: 10.6563px;
   line-height: 19px;
   text-align: center;
@@ -485,7 +442,6 @@ img {
   margin-bottom: 0px;
 }
 .score-charts {
-  font-family: "Montserrat";
   font-weight: 600;
   font-size: 10.6563px;
   line-height: 14px;
@@ -523,7 +479,6 @@ img {
 .box-top2-charts > .top-1-charts > .name-user-charts,
 .box-top3-charts > .top-1-charts > .name-user-charts {
   font-weight: 500;
-  font-family: "Montserrat";
   font-size: 8.88028px;
   line-height: 14px;
 }
@@ -555,7 +510,6 @@ img {
 }
 .box-news .title-news .text-title-news {
   font-style: normal;
-  font-family: "Montserrat-bold";
   font-weight: 700;
   font-size: 36px;
   line-height: 48px;
@@ -576,7 +530,6 @@ img {
   border-radius: 50%;
   overflow: hidden;
   margin-right: 10px;
-  width: 6%;
 }
 .box-news .box-post .post-news .avata-post-news > img {
   display: block;
@@ -586,7 +539,6 @@ img {
 }
 .box-news .box-post .post-news .text-post-news > input {
   width: 100%;
-  font-family: "Montserrat-Medium";
   font-weight: 500;
   font-size: 15px;
   letter-spacing: 0.75px;
@@ -615,7 +567,6 @@ img {
 }
 .category-post .item .text {
   font-weight: 600;
-  font-family: "Montserrat";
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.75px;
@@ -635,15 +586,12 @@ img {
   border-radius: 50%;
   overflow: hidden;
   margin-right: 20px;
-  width: 41.5px;
-  height: 41.5px;
 }
 .box-user-posts .personal-page .avata > img {
   display: block;
 }
 .user-information .name-user-information {
   font-weight: 600;
-  font-family: "Montserrat";
   font-size: 18px;
   line-height: 24px;
   display: flex;
@@ -655,7 +603,6 @@ img {
 .user-information .progress-update .text,
 .user-information .post-rating .title {
   font-weight: 500;
-  font-family: "Montserrat";
   font-size: 13px;
   line-height: 22px;
   letter-spacing: 0.25px;
@@ -683,16 +630,11 @@ img {
 }
 .box-user-posts .text-box-user-posts {
   font-weight: 500;
-  font-family: "Montserrat-Medium";
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0.75px;
   color: #4e4b66;
   margin-bottom: 20px;
-}
-.box-user-posts .text-box-user-posts > a {
-  text-decoration: none;
-  color: #0576f0;
 }
 .box-user-posts .box-books {
   display: flex;
@@ -710,7 +652,6 @@ img {
 }
 .box-books .information-box-books .title-box-books {
   font-style: normal;
-  font-family: "Montserrat";
   font-weight: 600;
   font-size: 20px;
   line-height: 32px;
@@ -719,7 +660,6 @@ img {
 }
 .box-books .information-box-books .auther-box-books {
   font-weight: 500;
-  font-family: "Montserrat-Medium";
   font-size: 13px;
   line-height: 22px;
   letter-spacing: 0.25px;
@@ -745,7 +685,6 @@ img {
 }
 .reading-progress .amount-progress > .title {
   font-weight: 600;
-  font-family: "Montserrat";
   font-size: 18px;
   line-height: 32px;
   letter-spacing: 0.75px;
@@ -754,7 +693,6 @@ img {
 }
 .reading-progress .amount-progress > .text {
   font-weight: 600;
-  font-family: "Montserrat-Medium";
   font-size: 13px;
   line-height: 22px;
   letter-spacing: 0.25px;
@@ -783,7 +721,6 @@ img {
 }
 .information-box-books .bottom-box-books .right .knot-read span .text {
   font-weight: 600;
-  font-family: "Montserrat-Medium";
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.75px;
@@ -795,7 +732,6 @@ img {
 }
 .information-box-books .bottom-box-books .left .text-aveluate {
   font-weight: 600;
-  font-family: "Montserrat-Medium";
   font-size: 11px;
   line-height: 22px;
   letter-spacing: 0.25px;
@@ -807,7 +743,7 @@ img {
   align-items: center;
   border-top: 1px solid #f1f1f5;
   border-bottom: 1px solid #f1f1f5;
-  margin: 20px 0px 30px 0px;
+  margin: 30px 0px;
   padding: 18px 0px;
   justify-content: space-between;
   width: 100%;
@@ -823,13 +759,12 @@ img {
   margin-right: 10px;
 }
 .box-user-posts .interactive .item .title {
-  font-family: "Montserrat-Medium";
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 22px;
   letter-spacing: 0.25px;
-  color: #6e7191;
+  color: #916e7c;
 }
 .user-comment {
   padding: 0px;
@@ -857,7 +792,6 @@ li {
 }
 .information-user .name {
   font-weight: 600;
-  font-family: "Montserrat";
   font-size: 13px;
   line-height: 22px;
   letter-spacing: 0.25px;
@@ -865,19 +799,16 @@ li {
   cursor: pointer;
 }
 .information-user .commmet {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 13px;
   line-height: 22px;
   letter-spacing: 0.25px;
-  color: #4E4B66;
+  color: #4e4b66;
   word-wrap: break-word !important;
 }
 .information-user .commmet > a {
   font-weight: 700;
   font-size: 13px;
-  font-family: "Montserrat";
   line-height: 22px;
   letter-spacing: 0.25px;
   color: #2d2c42;
@@ -891,7 +822,6 @@ li {
 .btn-information-user .btn-feedback {
   font-weight: 600;
   font-size: 11px;
-  font-family: "Montserrat-Medium";
   line-height: 22px;
   letter-spacing: 0.25px;
   color: #6e7191;
@@ -901,7 +831,6 @@ li {
 .btn-information-user .btn-time {
   font-weight: 500;
   font-size: 11px;
-  font-family: "Montserrat";
   line-height: 22px;
   letter-spacing: 0.25px;
   color: #a0a3bd;
@@ -947,7 +876,6 @@ li {
 .btn-user-comment > form > input::placeholder {
   font-style: normal;
   font-weight: 500;
-  font-family: "Montserrat";
   font-size: 13px;
   line-height: 22px;
   letter-spacing: 0.25px;
@@ -961,7 +889,6 @@ li {
 .information-user .box-information .box-author .name {
   font-weight: 600;
   font-size: 13px;
-  font-family: "Montserrat";
   line-height: 22px;
   letter-spacing: 0.25px;
   color: #2d2c42;
@@ -969,7 +896,6 @@ li {
 .information-user .box-information .box-author .logo-author {
   font-weight: 500;
   font-size: 11px;
-  font-family: "Montserrat";
   line-height: 22px;
   text-align: center;
   letter-spacing: 0.25px;
