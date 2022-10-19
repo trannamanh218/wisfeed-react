@@ -524,6 +524,9 @@
   overflow: hidden;
   margin-right: 10px;
 }
+.box-news .box-post .post-news .avata-post-news>img {
+  display: block;
+}
 .box-news .box-post .post-news .text-post-news {
   width: 80%;
 }
@@ -576,6 +579,9 @@
   border-radius: 50%;
   overflow: hidden;
   margin-right: 20px;
+}
+.box-user-posts .personal-page .avata>img {
+  display: block;
 }
 .user-information .name-user-information {
   font-weight: 600;
@@ -769,7 +775,8 @@ li {
   height: 36px;
   cursor: pointer;
 }
-.personal-page-user .information-user {
+.user-comment li .personal-page-user .left .img>img {
+  display: block;
 }
 .box-information {
   background: #f7f7fc;
