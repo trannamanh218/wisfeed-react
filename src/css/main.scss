@@ -1,20 +1,39 @@
 @font-face {
   font-family: Montserrat;
-  src: url("../../public/font/Montserrat-BoldItalic.ttf") format("truetype");
-  font-weight: bolder;
+  src: url("../../public/font/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url("../../public/font/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url("../../public/font/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 500;
+} 
+@font-face {
+  font-family: Montserrat;
+  src: url("../../public/font/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
 }
 /***************** box left *****************/
 .box-left {
   padding: 10px 35px 0px 30px;
 }
+
 .box-left > .box-books-being-read > .title-books {
-  font-style: normal;
   font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
   font-size: 20px;
   line-height: 32px;
   letter-spacing: 0.75px;
   color: #2d2c42;
+  font-family: Montserrat;
 }
+
 .box-left > .box-books-being-read > .reading-progress {
   display: flex;
   justify-content: space-between;
@@ -53,7 +72,7 @@
   margin-top: 10px;
 }
 .right-reading-progress > .author-books {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 13px;
   line-height: 22px;
   letter-spacing: 0.25px;
@@ -118,14 +137,16 @@
   margin-bottom: 25px;
 }
 .box-price-book ul li div {
+  font-family: Montserrat;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 13px;
   line-height: 22px;
   letter-spacing: 0.25px;
   color: #2d2c42;
 }
 .box-price-book ul li > .amount {
+  font-family: Montserrat;
   font-weight: 500;
   font-size: 13px;
   line-height: 22px;
@@ -136,6 +157,7 @@
   justify-content: flex-end;
 }
 .box-price-book ul .button-see-more a {
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
@@ -162,8 +184,9 @@
   margin-bottom: 49px;
 }
 .item-box-target .text-item-box-taget {
+  font-family: Montserrat;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0.75px;
@@ -178,6 +201,7 @@
 }
 .item-box-target .amount-item-box-target .left,
 .item-box-target .amount-item-box-target .right {
+  font-family: Montserrat;
   background: #eff0f7;
   border-radius: 22px;
   width: 32px;
@@ -190,6 +214,7 @@
   cursor: pointer;
 }
 .item-box-target .amount-item-box-target .center {
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -203,6 +228,7 @@
   justify-content: center;
 }
 .item-box-target .btn-item-box-target button {
+  font-family: Montserrat;
   border: 2px solid #e0af7e;
   border-radius: 8px;
   font-style: normal;
@@ -219,6 +245,7 @@
   margin-bottom: 49px;
 }
 .box-want-to-read .title-want-to-read {
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -248,6 +275,7 @@
   margin-bottom: 49px;
 }
 .quotes .title-quotes {
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -256,11 +284,12 @@
   color: #2d2c42;
 }
 .quotes .text-quotes {
+  font-family: Montserrat;
   background: #ffffff;
   border-radius: 16px;
   padding: 20px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0.75px;
@@ -275,9 +304,13 @@
   line-height: 22px;
   letter-spacing: 0.25px;
   text-decoration-line: underline;
+  a {
   color: #0576f0;
+  font-family: Montserrat;
+  }
 }
 .shortcut-group .title-shortcut-group {
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -301,6 +334,7 @@
   width: 85%;
 }
 .btn-shortcut-group {
+  font-family: Montserrat;
   display: flex;
   border: none;
   background: none;
@@ -314,6 +348,7 @@
   margin-right: 10px;
 }
 .item-shortcut-group .name-shortcut-group {
+  font-family: Montserrat;
   font-weight: 600;
   font-size: 13px;
   line-height: 22px;
@@ -321,6 +356,7 @@
   color: #4e4b66;
 }
 .shortcut-group .btn-shortcut-group {
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -336,6 +372,7 @@
   margin-bottom: 60px;
 }
 .event .title-event {
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -350,8 +387,9 @@
   padding: 20px;
 }
 .event .box-world-Books-day .title-box-world-Books-day {
+  font-family: Montserrat;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0.75px;
@@ -359,6 +397,7 @@
   margin-bottom: 20px;
 }
 .event .box-world-Books-day .btn-box-world-Books-day {
+  font-family: Montserrat;
   margin-top: 20px;
   width: 100%;
   border: 2px solid #e0af7e;
@@ -374,6 +413,7 @@
   padding: 8px 0px;
 }
 .charts .title-charts {
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -432,6 +472,7 @@
   left: 29px;
 }
 .name-user-charts {
+  font-family: Montserrat;
   font-weight: 600;
   font-size: 10.6563px;
   line-height: 19px;
@@ -442,6 +483,7 @@
   margin-bottom: 0px;
 }
 .score-charts {
+  font-family: Montserrat;
   font-weight: 600;
   font-size: 10.6563px;
   line-height: 14px;
@@ -481,6 +523,7 @@
   font-weight: 500;
   font-size: 8.88028px;
   line-height: 14px;
+  font-family: Montserrat;
 }
 .box-top2-charts {
   position: absolute;
@@ -511,10 +554,11 @@
 .box-news .title-news .text-title-news {
   font-style: normal;
   font-family: Montserrat;
-  font-weight: bolder;
+  font-weight: 700;
   font-size: 36px;
   line-height: 48px;
   letter-spacing: 1px;
+  color: #2D2C42;
 }
 .box-news .box-post {
   background: #ffffff;
@@ -541,8 +585,9 @@
   width: 80%;
 }
 .box-news .box-post .post-news .text-post-news > input {
+  font-family: Montserrat;
   width: 100%;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 15px;
   letter-spacing: 0.75px;
   border: none;
@@ -569,6 +614,7 @@
   margin-right: 20px;
 }
 .category-post .item .text {
+  font-family: Montserrat;
   font-weight: 600;
   font-size: 18px;
   line-height: 24px;
@@ -597,6 +643,7 @@
 }
 .user-information .name-user-information {
   font-weight: 600;
+  font-family: Montserrat;
   font-size: 18px;
   line-height: 24px;
   display: flex;
@@ -608,6 +655,7 @@
 .user-information .progress-update .text,
 .user-information .post-rating .title {
   font-weight: 500;
+  font-family: Montserrat;
   font-size: 13px;
   line-height: 22px;
   letter-spacing: 0.25px;
@@ -634,15 +682,16 @@
   margin-left: 5px;
 }
 .box-user-posts .text-box-user-posts {
-  font-weight: 500;
+  font-weight: 600;
+  font-family: Montserrat;
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0.75px;
   color: #4e4b66;
   margin-bottom: 20px;
 }
-.box-user-posts .text-box-user-posts>a {
-  color: #0576F0;
+.box-user-posts .text-box-user-posts > a {
+  color: #0576f0;
 }
 .box-user-posts .box-books {
   display: flex;
@@ -660,6 +709,7 @@
 }
 .box-books .information-box-books .title-box-books {
   font-style: normal;
+  font-family: Montserrat;
   font-weight: 600;
   font-size: 20px;
   line-height: 32px;
@@ -667,7 +717,8 @@
   color: #2d2c42;
 }
 .box-books .information-box-books .auther-box-books {
-  font-weight: 500;
+  font-weight: 600;
+  font-family: Montserrat;
   font-size: 13px;
   line-height: 22px;
   letter-spacing: 0.25px;
@@ -693,6 +744,7 @@
 }
 .reading-progress .amount-progress > .title {
   font-weight: 600;
+  font-family: Montserrat;
   font-size: 18px;
   line-height: 32px;
   letter-spacing: 0.75px;
@@ -701,6 +753,7 @@
 }
 .reading-progress .amount-progress > .text {
   font-weight: 600;
+  font-family: Montserrat;
   font-size: 13px;
   line-height: 22px;
   letter-spacing: 0.25px;
@@ -729,6 +782,7 @@
 }
 .information-box-books .bottom-box-books .right .knot-read span .text {
   font-weight: 600;
+  font-family: Montserrat;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.75px;
@@ -740,6 +794,7 @@
 }
 .information-box-books .bottom-box-books .left .text-aveluate {
   font-weight: 600;
+  font-family: Montserrat;
   font-size: 11px;
   line-height: 22px;
   letter-spacing: 0.25px;
@@ -768,6 +823,7 @@
 }
 .box-user-posts .interactive .item .title {
   font-style: normal;
+  font-family: Montserrat;
   font-weight: 600;
   font-size: 13px;
   line-height: 22px;
@@ -799,6 +855,7 @@ li {
   padding: 10px;
 }
 .information-user .name {
+  font-family: Montserrat;
   font-weight: 600;
   font-size: 13px;
   line-height: 22px;
@@ -807,7 +864,8 @@ li {
   cursor: pointer;
 }
 .information-user .commmet {
-  font-weight: 500;
+  font-family: Montserrat;
+  font-weight: 600;
   font-size: 13px;
   line-height: 22px;
   letter-spacing: 0.25px;
@@ -815,6 +873,7 @@ li {
   word-wrap: break-word !important;
 }
 .information-user .commmet > a {
+  font-family: Montserrat;
   font-weight: 700;
   font-size: 13px;
   line-height: 22px;
@@ -828,6 +887,7 @@ li {
 }
 .btn-information-user .btn-like,
 .btn-information-user .btn-feedback {
+  font-family: Montserrat;
   font-weight: 600;
   font-size: 11px;
   line-height: 22px;
@@ -837,6 +897,7 @@ li {
   cursor: pointer;
 }
 .btn-information-user .btn-time {
+  font-family: Montserrat;
   font-weight: 500;
   font-size: 11px;
   line-height: 22px;
@@ -883,6 +944,7 @@ li {
 }
 .btn-user-comment > form > input::placeholder {
   font-style: normal;
+  font-family: Montserrat;
   font-weight: 500;
   font-size: 13px;
   line-height: 22px;
@@ -896,6 +958,7 @@ li {
 }
 .information-user .box-information .box-author .name {
   font-weight: 600;
+  font-family: Montserrat;
   font-size: 13px;
   line-height: 22px;
   letter-spacing: 0.25px;
@@ -903,6 +966,7 @@ li {
 }
 .information-user .box-information .box-author .logo-author {
   font-weight: 500;
+  font-family: Montserrat;
   font-size: 11px;
   line-height: 22px;
   text-align: center;
