@@ -1,8 +1,7 @@
 import "../css/header.scss"
 const Header = () => {
   return (
-    <header>
-      <div className="container">
+      
         <div className="navbar">
           <div className="logo">
             <img src="img/Layer 1.png" alt="" />
@@ -39,8 +38,7 @@ const Header = () => {
             </a>
           </div>
         </div>
-      </div>
-    </header>
+      
   );
 };
 export default Header

@@ -28,6 +28,10 @@ header {
   border-radius: 0px;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  max-width: 1440px;
 }
 .navbar > .logo {
   width: 11.5%;
@@ -83,18 +87,4 @@ header {
   width: 60px;
   height: 60px;
   display: block;
-}
-.box-container {
-  display: flex;
-  background: #fbf7f2;
-  padding-top: 60px;
-}
-.box-container > .box-left {
-  width: 24%;
-}
-.box-container > .box-center {
-  width: 52%;
-}
-.box-container > .box-right {
-  width: 24%;
 }
