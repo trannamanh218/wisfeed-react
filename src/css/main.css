@@ -1,6 +1,7 @@
 @font-face {
   font-family: Montserrat;
-  src: url("../../public/font/Montserrat-SemiBold.ttf");
+  src: url("../../public/font/Montserrat-BoldItalic.ttf") format("truetype");
+  font-weight: bolder;
 }
 /***************** box left *****************/
 .box-left {
@@ -9,7 +10,6 @@
 .box-left > .box-books-being-read > .title-books {
   font-style: normal;
   font-family: Montserrat;
-  font-weight: 600;
   font-size: 20px;
   line-height: 32px;
   letter-spacing: 0.75px;
@@ -510,7 +510,8 @@
 }
 .box-news .title-news .text-title-news {
   font-style: normal;
-  font-weight: 700;
+  font-family: Montserrat;
+  font-weight: bolder;
   font-size: 36px;
   line-height: 48px;
   letter-spacing: 1px;
@@ -530,6 +531,8 @@
   border-radius: 50%;
   overflow: hidden;
   margin-right: 10px;
+  width: 41.5px;
+  height: 41.5px;
 }
 .box-news .box-post .post-news .avata-post-news > img {
   display: block;
@@ -586,6 +589,8 @@
   border-radius: 50%;
   overflow: hidden;
   margin-right: 20px;
+  width: 41.5px;
+  height: 41.5px;
 }
 .box-user-posts .personal-page .avata > img {
   display: block;
@@ -635,6 +640,9 @@
   letter-spacing: 0.75px;
   color: #4e4b66;
   margin-bottom: 20px;
+}
+.box-user-posts .text-box-user-posts>a {
+  color: #0576F0;
 }
 .box-user-posts .box-books {
   display: flex;
@@ -764,7 +772,7 @@
   font-size: 13px;
   line-height: 22px;
   letter-spacing: 0.25px;
-  color: #916e7c;
+  color: #6e7191;
 }
 .user-comment {
   padding: 0px;
@@ -868,7 +876,7 @@ li {
   width: 100%;
   border: 1px solid #d9dbe9;
   border-radius: 15px;
-  padding: 10px 10px;
+  padding: 15px 10px;
 }
 .btn-user-comment > form > input:focus-visible {
   outline: none;
