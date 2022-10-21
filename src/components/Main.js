@@ -166,7 +166,7 @@ const Main = () => {
               <img src="img/Vector.png" alt="" />
             </div>
           </div>
-          <BoxPost />
+          <BoxPost/>
           <div className="box-user-posts">
             <div className="personal-page">
               <div className="avata">
@@ -555,7 +555,7 @@ const Main = () => {
             </button>
           </div>
         </div>
-        <Charts />
+        <Charts/>
       </div>
     </div>
   );
